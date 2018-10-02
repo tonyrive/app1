@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F08A2BE2163717B000A9E20 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 7F08A2BD2163717B000A9E20 /* Cartfile */; };
+		7F08A2C121637586000A9E20 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F08A2C021637586000A9E20 /* Alamofire.framework */; };
 		7F8E0B3820528119008F972A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E0B3720528119008F972A /* AppDelegate.swift */; };
 		7F8E0B3A20528119008F972A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E0B3920528119008F972A /* MasterViewController.swift */; };
 		7F8E0B3C20528119008F972A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E0B3B20528119008F972A /* DetailViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F08A2BD2163717B000A9E20 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		7F08A2C021637586000A9E20 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
 		7F8E0B3420528119008F972A /* app1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8E0B3720528119008F972A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F8E0B3920528119008F972A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F08A2C121637586000A9E20 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F08A2BF2163743D000A9E20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F08A2C021637586000A9E20 /* Alamofire.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F8E0B2B20528119008F972A = {
 			isa = PBXGroup;
 			children = (
+				7F08A2BF2163743D000A9E20 /* Frameworks */,
+				7F08A2BD2163717B000A9E20 /* Cartfile */,
 				7F8E0B3620528119008F972A /* app1 */,
 				7F8E0B4D20528119008F972A /* app1Tests */,
 				7F8E0B5820528119008F972A /* app1UITests */,
@@ -240,6 +255,7 @@
 			files = (
 				7F8E0B4420528119008F972A /* LaunchScreen.storyboard in Resources */,
 				7F8E0B4120528119008F972A /* Assets.xcassets in Resources */,
+				7F08A2BE2163717B000A9E20 /* Cartfile in Resources */,
 				7F8E0B3F20528119008F972A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = app1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tonytekinsights.app1;
@@ -452,6 +472,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = app1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tonytekinsights.app1;
