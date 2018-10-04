@@ -1,0 +1,181 @@
+BCSymbolMap Version: 2.0
+-[MSCrashStackGuard category]
+-[MSCrashStackGuard title]
+-[MSCrashStackGuard desc]
+-[MSCrashStackGuard crash]
+Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashStackGuard.m
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib
+-[MSCrashFramelessDWARF category]
+-[MSCrashFramelessDWARF title]
+-[MSCrashFramelessDWARF desc]
+-[MSCrashFramelessDWARF crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashFramelessDWARF.m
+MSFramelessDWARF_test_crash
+-[MSCrashCorruptMalloc category]
+-[MSCrashCorruptMalloc title]
+-[MSCrashCorruptMalloc desc]
+-[MSCrashCorruptMalloc crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashCorruptMalloc.m
+-[MSCrashUndefInst category]
+-[MSCrashUndefInst title]
+-[MSCrashUndefInst desc]
+-[MSCrashUndefInst crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashUndefInst.m
+-[MSCrashAbort category]
+-[MSCrashAbort title]
+-[MSCrashAbort desc]
+-[MSCrashAbort crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashAbort.m
+_dummyfunc
+-[MSCrashROPage category]
+-[MSCrashROPage title]
+-[MSCrashROPage desc]
+-[MSCrashROPage crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashROPage.m
+dummyfunc
+-[MSCrashGarbage category]
+-[MSCrashGarbage title]
+-[MSCrashGarbage desc]
+-[MSCrashGarbage crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashGarbage.m
+-[MSCrashCXXException category]
+-[MSCrashCXXException title]
+-[MSCrashCXXException desc]
+-[MSCrashCXXException crash]
+__ZN16kaboom_exceptionD1Ev
+__ZN16kaboom_exceptionD0Ev
+__ZTSP16kaboom_exception
+__ZTIP16kaboom_exception
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashCXXException.mm
+~kaboom_exception
+kaboom_exception
+what
+-[MSCrashSmashStackBottom category]
+-[MSCrashSmashStackBottom title]
+-[MSCrashSmashStackBottom desc]
+-[MSCrashSmashStackBottom crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashSmashStackBottom.m
++[MSCrash initialize]
+___21+[MSCrash initialize]_block_invoke
++[MSCrash allCrashes]
++[MSCrash registerCrash:]
++[MSCrash removeAllCrashes]
++[MSCrash unregisterCrash:]
+-[MSCrash category]
+-[MSCrash title]
+-[MSCrash desc]
+-[MSCrash crash]
+_crashTypes
+_initialize.predicate
+___block_descriptor_tmp
+___block_literal_global
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrash.m
+__21+[MSCrash initialize]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/usr/include/dispatch/once.h
+-[MSCrashTrap category]
+-[MSCrashTrap title]
+-[MSCrashTrap desc]
+-[MSCrashTrap crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashTrap.m
+-[MSCrashNULL category]
+-[MSCrashNULL title]
+-[MSCrashNULL desc]
+-[MSCrashNULL crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashNULL.m
+-[MSCrashSmashStackTop category]
+-[MSCrashSmashStackTop title]
+-[MSCrashSmashStackTop desc]
+-[MSCrashSmashStackTop crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashSmashStackTop.m
+-[MSCrashObjCException category]
+-[MSCrashObjCException title]
+-[MSCrashObjCException desc]
+-[MSCrashObjCException crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashObjCException.m
+-[MSCrashNSLog category]
+-[MSCrashNSLog title]
+-[MSCrashNSLog desc]
+-[MSCrashNSLog crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashNSLog.m
+-[MSCrashObjCMsgSend category]
+-[MSCrashObjCMsgSend title]
+-[MSCrashObjCMsgSend desc]
+-[MSCrashObjCMsgSend crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashObjCMsgSend.m
+-[MSCrashOverwriteLinkRegister category]
+-[MSCrashOverwriteLinkRegister title]
+-[MSCrashOverwriteLinkRegister desc]
+-[MSCrashOverwriteLinkRegister crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashOverwriteLinkRegister.m
+-[MSCrashPrivInst category]
+-[MSCrashPrivInst title]
+-[MSCrashPrivInst desc]
+-[MSCrashPrivInst crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashPrivInst.m
+-[MSCrashAsyncSafeThread category]
+-[MSCrashAsyncSafeThread title]
+-[MSCrashAsyncSafeThread desc]
+-[MSCrashAsyncSafeThread crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashAsyncSafeThread.m
+-[MSCrashNXPage category]
+-[MSCrashNXPage title]
+-[MSCrashNXPage desc]
+-[MSCrashNXPage crash]
+_real_NXcrash
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashNXPage.m
+real_NXcrash
+-[MSCrashCorruptObjC category]
+-[MSCrashCorruptObjC title]
+-[MSCrashCorruptObjC desc]
+-[MSCrashCorruptObjC crash]
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashCorruptObjC.m
+-[MSCrashReleasedObject category]
+-[MSCrashReleasedObject title]
+-[MSCrashReleasedObject desc]
+-[MSCrashReleasedObject crash]
+___30-[MSCrashReleasedObject crash]_block_invoke
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashReleasedObject.m
+__30-[MSCrashReleasedObject crash]_block_invoke
+_$S10CrashLibTV12MSCrashSwiftC8categorySSvgTo
+_$S10CrashLibTV12MSCrashSwiftC5titleSSvgTo
+_$S10CrashLibTV12MSCrashSwiftC4descSSvgTo
+_$S10CrashLibTV12MSCrashSwiftC5crashyyFTo
+_$S10CrashLibTV12MSCrashSwiftCACycfc
+_$S10CrashLibTV12MSCrashSwiftCACycfcTo
+_$S10CrashLibTV12MSCrashSwiftCfD
+_$S10CrashLibTV12MSCrashSwiftCMa
+_OBJC_METACLASS_$__TtC10CrashLibTV12MSCrashSwift
+_$S10CrashLibTVMXM
+_$S10CrashLibTV12MSCrashSwiftCMn
+_$S10CrashLibTV12MSCrashSwiftCML
+_$S10CrashLibTV12MSCrashSwiftCMf
+_symbolic ____ 10CrashLibTV12MSCrashSwiftC
+_symbolic So7MSCrashC
+_$S10CrashLibTV12MSCrashSwiftCMF
+__swift_FORCE_LOAD_$_swiftFoundation_$_CrashLibTV
+__swift_FORCE_LOAD_$_swiftDarwin_$_CrashLibTV
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_CrashLibTV
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_CrashLibTV
+__swift_FORCE_LOAD_$_swiftDispatch_$_CrashLibTV
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_CrashLibTV
+___swift_reflection_version
+_objc_classes
+_$S10CrashLibTV12MSCrashSwiftCN
+_OBJC_CLASS_$__TtC10CrashLibTV12MSCrashSwift
+Apple LLVM version 10.0.0 (clang-1000.11.45.1)
+-emit-bc /Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashSwift.swift -emit-module-path /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/Objects-normal/arm64/CrashLibTV.swiftmodule -emit-module-doc-path /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/Objects-normal/arm64/CrashLibTV.swiftdoc -serialize-diagnostics-path /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/Objects-normal/arm64/CrashLibTV-master.dia -emit-objc-header-path /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/Objects-normal/arm64/CrashLibTV-Swift.h -emit-dependencies-path /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/Objects-normal/arm64/CrashLibTV-master.d -target arm64-apple-tvos12.0 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk -I /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/BuildProductsPath/Release-appletvos -F /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/BuildProductsPath/Release-appletvos -g -module-cache-path /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/ModuleCache.noindex -swift-version 3 -O -serialize-debugging-options -Xcc -I/Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/CrashLibTV-generated-files.hmap -Xcc -I/Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/CrashLibTV-own-target-headers.hmap -Xcc -I/Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/CrashLibTV-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/CrashLibTV-project-headers.hmap -Xcc -I/Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/BuildProductsPath/Release-appletvos/include -Xcc -I/Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/DerivedSources/arm64 -Xcc -I/Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/DerivedSources -Xcc -DCONFIGURATION_Release -Xcc -DNS_BLOCK_ASSERTIONS=1 -Xcc -working-directory/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib -import-objc-header /Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/CrashLib-Bridging-Header.h -pch-output-dir /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/PrecompiledHeaders -parse-as-library -module-name CrashLibTV -num-threads 8 -o /Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/Objects-normal/arm64/MSCrashSwift.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+<swift-imported-modules>
+Apple Swift version 4.2 effective-3.4 (swiftlang-1000.11.37.1 clang-1000.11.45.1)
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib/MSCrashSwift.swift
+$S10CrashLibTV12MSCrashSwiftCMa
+<compiler-generated>
+deinit
+MSCrashSwift.swift
+/Users/juarivera/Documents/Dev/app1/Carthage/Checkouts/AppCenter-SDK-Apple/CrashLib/CrashLib
+init
+crash
+$S10CrashLibTV12MSCrashSwiftC4descSSvgTo
+$S10CrashLibTV12MSCrashSwiftC5titleSSvgTo
+$S10CrashLibTV12MSCrashSwiftC8categorySSvgTo
+/Users/juarivera/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/AppCenter-SDK-Apple/1.9.0/Build/Intermediates.noindex/ArchiveIntermediates/CrashLibTV/IntermediateBuildFilesPath/CrashLib.build/Release-appletvos/CrashLibTV.build/DerivedSources/CrashLibTV_vers.c

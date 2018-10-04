@@ -1,0 +1,4 @@
+framework module CrashLibMac {
+  header "CrashLibMac-Swift.h"
+  requires objc
+}

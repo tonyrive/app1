@@ -25,9 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
         
-        MSAppCenter.start("4e2a7a85-2f23-4d07-b1fb-c2e37f9d3894", withServices: [MSAnalytics.self,
-                                                              MSCrashes.self,
-                                                              MSPush.self])
+        
+//        MSAppCenter.start("4e2a7a85-2f23-4d07-b1fb-c2e37f9d3894", withServices: [MSAnalytics.self,
+//                                                              MSCrashes.self,
+//                                                              MSPush.self])
         
         return true
     }

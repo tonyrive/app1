@@ -1,0 +1,4 @@
+framework module CrashLibTV {
+  header "CrashLibTV-Swift.h"
+  requires objc
+}

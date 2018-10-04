@@ -1,0 +1,14 @@
+Build settings from command line:
+    DSTROOT = /Users/juarivera/Documents/Dev/app1/build/dst
+    OBJROOT = /Users/juarivera/Documents/Dev/app1/build/obj
+    SHARED_PRECOMPS_DIR = /Users/juarivera/Documents/Dev/app1/build/shared
+    SYMROOT = /Users/juarivera/Documents/Dev/app1/build/sym
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+Build system information
+error: No profiles for 'com.tonytekinsights.app1' were found: Xcode couldn't find any iOS App Development provisioning profiles matching 'com.tonytekinsights.app1'. Automatic signing is disabled and unable to generate a profile. To enable automatic signing, pass -allowProvisioningUpdates to xcodebuild. (in target 'app1')
+
+** BUILD FAILED **
+

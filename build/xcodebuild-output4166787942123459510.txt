@@ -1,0 +1,10 @@
+User defaults from command line:
+    IDEDerivedDataPathOverride = /Users/juarivera/Documents/Dev/app1/build/derivedData
+
+Build settings from command line:
+    DSTROOT = /Users/juarivera/Documents/Dev/app1/build/dst
+    OBJROOT = /Users/juarivera/Documents/Dev/app1/build/obj
+    SHARED_PRECOMPS_DIR = /Users/juarivera/Documents/Dev/app1/build/shared
+    SYMROOT = /Users/juarivera/Documents/Dev/app1/build/sym
+
+xcodebuild: error: The project named "app1" does not contain a scheme named "debug". The "-list" option can be used to find the names of the schemes in the project.

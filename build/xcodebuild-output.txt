@@ -1,0 +1,15 @@
+Build settings from command line:
+    DSTROOT = /Users/juarivera/Documents/Dev/app1/build/dst
+    OBJROOT = /Users/juarivera/Documents/Dev/app1/build/obj
+    SHARED_PRECOMPS_DIR = /Users/juarivera/Documents/Dev/app1/build/shared
+    SYMROOT = /Users/juarivera/Documents/Dev/app1/build/sym
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+2018-10-03 16:39:19.267 XCBBuildService[16642:184838] Failed to remove: /Users/juarivera/Documents/Dev/app1/build/obj/XCBuildData/7396b0a8e7e15269f1dacb5a31a4b9a3-desc.xcbuild: No such file or directory (2)
+Build system information
+error: "app1" requires a provisioning profile. Select a provisioning profile for the "Debug" build configuration in the project editor. (in target 'app1')
+
+** BUILD FAILED **
+

@@ -1,0 +1,14 @@
+Build settings from command line:
+    DSTROOT = /Users/juarivera/Documents/Dev/app1/build/dst
+    OBJROOT = /Users/juarivera/Documents/Dev/app1/build/obj
+    SHARED_PRECOMPS_DIR = /Users/juarivera/Documents/Dev/app1/build/shared
+    SYMROOT = /Users/juarivera/Documents/Dev/app1/build/sym
+
+note: Using new build system
+note: Planning build
+note: Constructing build description
+Build system information
+error: "app1" requires a provisioning profile. Select a provisioning profile for the "Debug" build configuration in the project editor. (in target 'app1')
+
+** BUILD FAILED **
+

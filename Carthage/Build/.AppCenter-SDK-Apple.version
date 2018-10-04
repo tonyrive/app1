@@ -1,0 +1,24 @@
+{
+  "Mac" : [
+    {
+      "name" : "CrashLibMac",
+      "hash" : "c0414724eb50bf4095ea30d7f22e570b181e89d6669a4541c7c380b968130b44"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "CrashLibTV",
+      "hash" : "dff03505670703b93d20b5daa5ca27687ae05f2a1ab2a9d2ad1158452d93bb5a"
+    }
+  ],
+  "commitish" : "1.9.0",
+  "iOS" : [
+    {
+      "name" : "CrashLibIOS",
+      "hash" : "d3eeb47009eb0e1214e523dece3c3ee4a9ebf1ed332fde25da4b752402495828"
+    }
+  ]
+}

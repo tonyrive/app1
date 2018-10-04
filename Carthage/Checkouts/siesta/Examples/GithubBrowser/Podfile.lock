@@ -1,0 +1,18 @@
+PODS:
+  - Siesta/Core (1.4.2)
+  - Siesta/UI (1.4.2):
+    - Siesta/Core
+
+DEPENDENCIES:
+  - Siesta/UI (from `../..`)
+
+EXTERNAL SOURCES:
+  Siesta:
+    :path: "../.."
+
+SPEC CHECKSUMS:
+  Siesta: 7e2d45576418ec5628948e35883d6b68edc146c7
+
+PODFILE CHECKSUM: ae415ad9ad375272eab63ab45853da2148a7aa21
+
+COCOAPODS: 1.5.3
