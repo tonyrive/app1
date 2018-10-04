@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2043583721659AE9001A979C /* AppCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2043583621659AE9001A979C /* AppCenter.framework */; };
+		2043583921659B3C001A979C /* AppCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2043583821659B3C001A979C /* AppCenterAnalytics.framework */; };
+		2043583B21659B44001A979C /* AppCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2043583A21659B44001A979C /* AppCenterCrashes.framework */; };
+		2043583D21659B8B001A979C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2043583C21659B8A001A979C /* Alamofire.framework */; };
+		2043583F21659B96001A979C /* Siesta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2043583E21659B96001A979C /* Siesta.framework */; };
+		2043584121659BF1001A979C /* AppCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2043584021659BF1001A979C /* AppCenterPush.framework */; };
+		208F790A21656896007180F4 /* RepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208F790921656896007180F4 /* RepositoryService.swift */; };
+		208F790C216568C3007180F4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208F790B216568C3007180F4 /* NetworkService.swift */; };
+		20D58DA721657E95001C0D68 /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = 20D58DA621657E95001C0D68 /* build.gradle */; };
 		7F08A2BE2163717B000A9E20 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 7F08A2BD2163717B000A9E20 /* Cartfile */; };
-		7F08A2C121637586000A9E20 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F08A2C021637586000A9E20 /* Alamofire.framework */; };
 		7F8E0B3820528119008F972A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E0B3720528119008F972A /* AppDelegate.swift */; };
 		7F8E0B3A20528119008F972A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E0B3920528119008F972A /* MasterViewController.swift */; };
 		7F8E0B3C20528119008F972A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E0B3B20528119008F972A /* DetailViewController.swift */; };
@@ -37,8 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2043583621659AE9001A979C /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenter.framework; sourceTree = "<group>"; };
+		2043583821659B3C001A979C /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterAnalytics.framework; sourceTree = "<group>"; };
+		2043583A21659B44001A979C /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterCrashes.framework; sourceTree = "<group>"; };
+		2043583C21659B8A001A979C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		2043583E21659B96001A979C /* Siesta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Siesta.framework; path = Carthage/Build/iOS/Siesta.framework; sourceTree = SOURCE_ROOT; };
+		2043584021659BF1001A979C /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterPush.framework; sourceTree = "<group>"; };
+		208F790921656896007180F4 /* RepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryService.swift; sourceTree = "<group>"; };
+		208F790B216568C3007180F4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		20D58DA621657E95001C0D68 /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = text; path = build.gradle; sourceTree = "<group>"; };
 		7F08A2BD2163717B000A9E20 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		7F08A2C021637586000A9E20 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
 		7F8E0B3420528119008F972A /* app1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8E0B3720528119008F972A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F8E0B3920528119008F972A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +76,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F08A2C121637586000A9E20 /* Alamofire.framework in Frameworks */,
+				2043583F21659B96001A979C /* Siesta.framework in Frameworks */,
+				2043583921659B3C001A979C /* AppCenterAnalytics.framework in Frameworks */,
+				2043583721659AE9001A979C /* AppCenter.framework in Frameworks */,
+				2043584121659BF1001A979C /* AppCenterPush.framework in Frameworks */,
+				2043583B21659B44001A979C /* AppCenterCrashes.framework in Frameworks */,
+				2043583D21659B8B001A979C /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +102,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		208F790521656766007180F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		208F79062165677C007180F4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		208F790721656793007180F4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				208F790921656896007180F4 /* RepositoryService.swift */,
+				208F790B216568C3007180F4 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		208F79082165679B007180F4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F8E0B3920528119008F972A /* MasterViewController.swift */,
+				7F8E0B3B20528119008F972A /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		7F08A2BF2163743D000A9E20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7F08A2C021637586000A9E20 /* Alamofire.framework */,
+				2043584021659BF1001A979C /* AppCenterPush.framework */,
+				2043583E21659B96001A979C /* Siesta.framework */,
+				2043583C21659B8A001A979C /* Alamofire.framework */,
+				2043583A21659B44001A979C /* AppCenterCrashes.framework */,
+				2043583821659B3C001A979C /* AppCenterAnalytics.framework */,
+				2043583621659AE9001A979C /* AppCenter.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -92,6 +150,7 @@
 		7F8E0B2B20528119008F972A = {
 			isa = PBXGroup;
 			children = (
+				20D58DA621657E95001C0D68 /* build.gradle */,
 				7F08A2BF2163743D000A9E20 /* Frameworks */,
 				7F08A2BD2163717B000A9E20 /* Cartfile */,
 				7F8E0B3620528119008F972A /* app1 */,
@@ -114,9 +173,11 @@
 		7F8E0B3620528119008F972A /* app1 */ = {
 			isa = PBXGroup;
 			children = (
+				208F79082165679B007180F4 /* ViewControllers */,
+				208F790721656793007180F4 /* Services */,
+				208F79062165677C007180F4 /* Helpers */,
+				208F790521656766007180F4 /* Models */,
 				7F8E0B3720528119008F972A /* AppDelegate.swift */,
-				7F8E0B3920528119008F972A /* MasterViewController.swift */,
-				7F8E0B3B20528119008F972A /* DetailViewController.swift */,
 				7F8E0B3D20528119008F972A /* Main.storyboard */,
 				7F8E0B4020528119008F972A /* Assets.xcassets */,
 				7F8E0B4220528119008F972A /* LaunchScreen.storyboard */,
@@ -212,7 +273,7 @@
 					7F8E0B3320528119008F972A = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1000;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					7F8E0B4920528119008F972A = {
 						CreatedOnToolsVersion = 9.2;
@@ -253,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D58DA721657E95001C0D68 /* build.gradle in Resources */,
 				7F8E0B4420528119008F972A /* LaunchScreen.storyboard in Resources */,
 				7F8E0B4120528119008F972A /* Assets.xcassets in Resources */,
 				7F08A2BE2163717B000A9E20 /* Cartfile in Resources */,
@@ -281,9 +343,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208F790C216568C3007180F4 /* NetworkService.swift in Sources */,
 				7F8E0B3C20528119008F972A /* DetailViewController.swift in Sources */,
 				7F8E0B3A20528119008F972A /* MasterViewController.swift in Sources */,
 				7F8E0B3820528119008F972A /* AppDelegate.swift in Sources */,
+				208F790A21656896007180F4 /* RepositoryService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,8 +434,10 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BVPDJE3SYV;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -429,8 +495,10 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BVPDJE3SYV;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -453,15 +521,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = app1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tonytekinsights.app1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonytekinsights.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,15 +544,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = app1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tonytekinsights.app1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonytekinsights.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -557,7 +635,7 @@
 				7F8E0B5D20528119008F972A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		7F8E0B5E20528119008F972A /* Build configuration list for PBXNativeTarget "app1" */ = {
 			isa = XCConfigurationList;
@@ -566,7 +644,7 @@
 				7F8E0B6020528119008F972A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		7F8E0B6120528119008F972A /* Build configuration list for PBXNativeTarget "app1Tests" */ = {
 			isa = XCConfigurationList;
@@ -575,7 +653,7 @@
 				7F8E0B6320528119008F972A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		7F8E0B6420528119008F972A /* Build configuration list for PBXNativeTarget "app1UITests" */ = {
 			isa = XCConfigurationList;
@@ -584,7 +662,7 @@
 				7F8E0B6620528119008F972A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

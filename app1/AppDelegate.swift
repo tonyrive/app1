@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
+import AppCenterPush
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
@@ -20,6 +24,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
+        
+        MSAppCenter.start("4e2a7a85-2f23-4d07-b1fb-c2e37f9d3894", withServices: [MSAnalytics.self,
+                                                              MSCrashes.self,
+                                                              MSPush.self])
+        
         return true
     }
 
@@ -56,6 +65,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         }
         return false
     }
-
 }
 

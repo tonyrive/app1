@@ -1,1 +1,2 @@
 github "Alamofire/Alamofire" ~> 4.7
+github "bustoutsolutions/siesta" ~> 1.0

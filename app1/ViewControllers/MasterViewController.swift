@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AppCenterCrashes
 
 class MasterViewController: UITableViewController {
 
@@ -25,6 +26,10 @@ class MasterViewController: UITableViewController {
             let controllers = split.viewControllers
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
         }
+        
+        //TODO: Make sure to remove this line
+        //MSCrashes.generateTestCrash()
+        
     }
 
     override func viewWillAppear(_ animated: Bool) {
